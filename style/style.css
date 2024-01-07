@@ -51,6 +51,13 @@ body {
     margin-top: 85px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-year-img {
+    width: 802.9px;
+    height: 500px;
 }
 
 .sec-heading {
@@ -81,3 +88,118 @@ body {
     margin-top: 10px;
     margin-bottom: 55px;
 }
+
+.midnight-party {
+    background: linear-gradient(to right, #000000bc, #0808087e), url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 1280px;
+    margin: 110px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+   border-radius: 15px;
+}
+
+.party-section {
+    color: #fff;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.party-description {
+    color: rgba(255, 255, 255, .80);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 480;
+    margin-top: 25px;
+    ;
+}
+
+.btn-join {
+    margin-top: 20px;
+    padding: 15px 20px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: transparent;
+    border:none;
+}
+/* event detail style */
+.event{
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.10) , rgba(255, 0, 0, 0.00));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    width: 1280px;
+    display: flex;
+    gap: 40px;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 600;
+}
+.event-detail{
+    color:#070211;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 600;
+} 
+.btn{
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 20px;
+    max-width: fit-content;
+    margin: 0 auto;
+    background-color: #f00;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+}
+.title-span{
+    color:#f00;
+}
+/* footer style */
+footer{
+    background-color: black;
+    width: 100%;
+    margin-top: 60px ;
+    padding: 100px 0;
+}
+.information{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.footer-parent-section{
+    width: 1280px;
+    background-color: black;
+    color:#fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+ .contact{
+    align-items: end; 
+  
+} 
+
