@@ -1,0 +1,83 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header section style */
+.header-section {
+    height: 600px;
+    width: 1280px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+    /* background-image: url(../images/Banner\ Image.png); */
+    background: linear-gradient(to bottom, #000000a0, #0808081d), url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.first-heading {
+    font-size: 60px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.small-heading {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+
+/* main section style */
+.discount-section {
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-heading {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 85px;
+    font-weight: 700;
+    margin: 0px 300px;
+    /* background-image: url(../images/New\ Year\ Photo.png); */
+}
+
+.small-title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 26px;
+}
+
+.third-heading {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 55px;
+}
