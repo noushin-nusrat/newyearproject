@@ -217,7 +217,6 @@ body {
     gap: 20px;
 }
 
-
 .offer-heading {
     color: #F00;
     font-family: Inter;
@@ -256,28 +255,44 @@ body {
     font-weight: 700;
 }
 
+
 /* 50% discount offer style  */
-.function {
-    color: #070211;
+
+.discount-offer-section {
+    width: 1280px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 110px 0;
+}
+
+
+.discount-offer-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.function {
+    color: #070211;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    text-align: center;
 }
 
-.holiday {
-    color: #F00;
-}
 
 .sale-heading {
     color: #070211;
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
-    margin: 20px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .discount-detail {
@@ -286,10 +301,52 @@ body {
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
+    width: 60%;
+}
+
+/* 50% discount offer bottom section */
+
+.discount-offer-bottom {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 0;
 }
+
+.discount-offer-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 70px;
+}
+
+.discount-offer-image-left {
+    position: relative;
+}
+
+
+.left-image {
+    position: absolute;
+    bottom: -250px;
+}
+
+
+.discount-offer-image-right {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+}
+
+
+.discount-image {
+    position: absolute;
+    left: -170px;
+    bottom: 60px;
+}
+
 
 /* gift section style */
 .gift-corner {
