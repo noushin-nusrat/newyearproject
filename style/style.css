@@ -183,13 +183,21 @@ body {
 }
 
 /* gift section style */
-.gift corner {
-    height: 400px;
+/* .gift-corner {
     width: 1280px;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
+    justify-content: start;
+    align-items: center;
+} */
+.image-container{
+    /* width: max-content; */
+    display: flex;
+    gap: 10px;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .gift-detail {
